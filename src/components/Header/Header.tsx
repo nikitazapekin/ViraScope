@@ -9,6 +9,7 @@ const Header = () => {
                     className={styles.header__logo}
                     alt="Vira"
                 />
+                sca
             </nav>
         </header>);
 }
