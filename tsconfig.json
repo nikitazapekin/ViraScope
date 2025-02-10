@@ -21,7 +21,8 @@
       "@styles/*": ["./src/constants/styles/*"],
       "@hooks/*": ["./src/hooks/*"],
       "@mocks/*": ["./__mocks__/*"],
-      "@theme/*": ["./_theme__/*"]
+     
+      "@theme/*": ["./src/theme/*"]
     }
   },
   "types": ["cypress", "jest", "@testing-library/jest-dom", "node"],
@@ -32,3 +33,4 @@
     }
   }
 }
+ 

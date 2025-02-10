@@ -1,13 +1,15 @@
-import styles from "@theme/theme.scss"
+import Header from "@components/Header/Header";
+import styles from "@theme/wrapper.module.scss"
 const Homepage = () => {
     return ( 
 
-        <>
-        <div>
+        <div className={styles.wrapper}>
+            <Header />
+        <main className={styles.content}>
 
-        </div>
+        </main>
  
-        </>
+        </div>
      );
 }
  
