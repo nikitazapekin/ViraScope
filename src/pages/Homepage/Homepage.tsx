@@ -1,9 +1,12 @@
+import styles from "@theme/theme.scss"
 const Homepage = () => {
     return ( 
 
         <>
+        <div>
 
-        dsvd
+        </div>
+ 
         </>
      );
 }
